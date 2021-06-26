@@ -1,13 +1,13 @@
 package git.PraticeGit2;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public void chnge() {
+		System.out.println("yes sonu how are u");
+	}
+
+    public static void main( String[] args ) {  
+    App  a = new App();
+    a.chnge();
+}
 }
